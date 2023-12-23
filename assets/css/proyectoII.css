@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rowdies&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(/assets/img/Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo{
+    margin: 40px auto 0;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(29, 12, 32);
+    width: 400px;
+    height: 70px;
+    align-items: center;
+  display: flex;
+  justify-content: center;
+    border: solid rgb(180, 126, 189) ;
+    border-radius: 10px;
+    font-size: large;
+    font-family: Rowdies;
+}
+
+.grid {
+    text-align: center;
+    background-color: rgb(180, 126, 189);
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 10px rgb(29, 12, 32);
+    border-radius: 10px;
+
+}
+
+.mensaje{
+    font-family: Poppins;
+    font-size:larger;
+}
+
+#mensaje{
+    width: 700px;
+    height: 120px;
+    border-radius: 10px;
+    border: solid 3px rgb(29, 12, 32);
+}
+
+.clave{
+    font-family: Poppins;
+    font-size:larger;
+}
+
+#offset{
+    width: 700px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 3px rgb(29, 12, 32);
+}
+
+.mostrarmensaje{
+    font-family: Poppins;
+    font-size:larger;
+}
+
+#msgResult{
+    width: 700px;
+    height: 120px;
+    border-radius: 10px;
+    border: solid 3px rgb(29, 12, 32);
+}
+
+#botoncifrar{
+    color: aliceblue;
+    background-color: rgb(29, 12, 32);
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+#botondecifrar{
+    color: aliceblue;
+    background-color: rgb(29, 12, 32);
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+#copy{
+    color: aliceblue;
+    background-color: rgb(29, 12, 32);
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    font-family: poppins;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: rgb(29, 12, 32);
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
+a{
+    font-size: 17px;
+    font-weight: bold;
+    color: aliceblue;
+}

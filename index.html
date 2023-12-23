@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="assets/css/proyectoII.css"/>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Encripta el Mensaje</h1>
+    </header>
+        <main class="grid">
+            <section class="contai">
+                <div id="message">
+                    <label class="mensaje"  for="message">Mensaje secreto</label><br>
+                    <textarea name="textarea" id="mensaje" rows="3" maxlength="100" placeholder="Escribe o pega tu mensaje secreto aquí"></textarea><br>
+                    <div id="contador">0/100</div>
+                  </div>
+                </div>
+                <div>
+                    <label class="clave" for="offset">Clave secreta</label><br>
+                    <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
+                </div>
+                <div class="btnGroup"><br>
+                    <button onclick="cifrarMensaje()"  id="botoncifrar" name="cipher" type="button">
+                        <i class="cifri"></i> Cifrar
+                    </button>
+                    <button onclick="decifrarMensaje()" id="botondecifrar" name="decipher" type="button">
+                     <i class="deci"></i> Descifrar
+                    </button>
+                </div>
+            </section><br>
+        </main>
+
+        <footer>
+          <h4>Nuestro correo electrónico:</h4>
+          <a href="Encriptadoresmensajes@gmail.com">Mándanos un correo aquí</a>
+          <br>
+          <p> &copy; Esta página cumple con derechos de autor</p>
+        </footer>
+    </div>
+    ç<script src="assets/js/proyecto.js"></script>
+</body>
+</html>
+
